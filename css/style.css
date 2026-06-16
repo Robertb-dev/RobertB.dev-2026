@@ -1,0 +1,78 @@
+/*Configurações globais*/
+:root {
+  /* Cores */
+  --primary-color: #008000;
+  --text-color: #a3af9e; /*#a3af9e cinza  verde escuro #0a5c0a   #3f4a3c*/
+  --bg-color: #3f4a3c;
+  
+ --font-size-base: 16px;
+}
+/*Espaçamentos*/
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Font Montserrat*/
+@font-face {
+  /*Font Montserrat*/
+  font-family: 'Montserrat';
+  src: url('font/Montserrat/Montserrat-VariableFont_wght') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+  /*Font Venus Risign (apenas para a logo)*/
+  font-family: 'VenusRising';
+  src: url('../font/venus_rising/Venus.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+
+/*Barra de navegação*/
+
+.navbarCustom {
+  background-color: #3f4a3c;
+}
+
+.logo-texto {
+  font-family: 'VenusRising', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.navbarCustom .menu-link {
+  color: #000000 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-weight: bolder;
+}
+
+.navbarCustom .menu-link:hover {
+  color: #198754 !important; 
+}
+
+
+
+
+
+
+
+/*Media Quieres*/
